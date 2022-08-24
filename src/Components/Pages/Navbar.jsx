@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import harvestLogo from "../../utils/harvest-removebg-preview.png";
+// import harvestLogo from "../../utils/harvest-removebg-preview.png";
 
 const Navbar = () => {
   return (
