@@ -5,7 +5,7 @@
     width: 100%;
     margin-top: 10px;
     aspect-ratio: 1;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 .feature-mainContainer>.AutoScroll{
     /* border: 1px solid red; */
