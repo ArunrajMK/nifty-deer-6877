@@ -3,6 +3,7 @@
     height: auto;
     width: 100%;
     margin-top: 10px;
+    aspect-ratio: 1;
 }
 .feature-mainContainer>.AutoScroll{
     /* border: 1px solid red; */
@@ -61,8 +62,7 @@
 /* items Container */
 .AutoScroll>.items{
     height: 309vh;
-    border-bottom:1px solid rgba(250,93,0,100%);
-
+    /* border-bottom:1px solid rgba(250,93,0,100%); */
 }
 
 /* time tracking */
@@ -71,6 +71,7 @@
     height: 800px;
     margin: auto;
     margin-top: 50px;
+    z-index: 12;
 }
 .timetracking>.timetrack-flex{
     height: 68%;
@@ -165,6 +166,8 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
+    z-index: 12;
+
 }
 .quote-banner>img{
     max-width: 100%;
@@ -285,8 +288,7 @@
     grid-template-columns: repeat(2,1fr);
     gap: 40px;
     padding-bottom: 50px;
-    margin-top: 50px;
-
+    margin-top: calc(10% + 500px)
 }
 .bottom-text>.btn{
    display: flex;
@@ -332,4 +334,152 @@ font-size: 15px;
     font-family: MuotoWeb,sans-serif;
     padding-left: 10px;
 
+}
+   
+.btn>button{ width:180px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: rgba(250,93,0,100%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;}
+.bottom-section>div{
+    padding-top: 50px;
+}
+.bottom-section>.bottom-image>h3,h4{
+font-style: italic;
+color: grey;
+font-size: 15px;
+}
+.bottom-section>.bottom-text{
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+}
+.bottom-text h1{
+    font-weight: 400;
+    text-decoration: none;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 55px;
+    padding-left: 10px;
+}
+.bottom-text h3{
+    line-height: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: #1d1e1c;
+    font-family: MuotoWeb,sans-serif;
+    padding-left: 10px;
+
+}
+
+/* Media Query */
+@media (max-width:1081px) and (min-width:375px){
+    .feature-mainContainer{
+        width: 230%;
+    }
+    .AutoScroll>.items{
+        height:455vh;
+        /* overflow: scroll; */
+
+    }
+    .scrollTags>.scroll-items{
+        height: 500px;
+        width: 90%;
+        /* overflow: scroll; */
+
+    }
+    .items>.timetracking{
+        width: 100%;
+        /* overflow: scroll; */
+
+    }
+    .banner-flex>.banner-flexitems{
+        font-size: 15px;
+       /* border: 1px solid red; */
+       overflow: scroll;
+    }
+    .quote-banner{
+        margin-top: 100px;
+        overflow: scroll;
+    }
+    .quote-banner>img{
+        max-width: 100%;
+        height: 200px;
+        width: 200px;
+        padding-left: 40px;
+        /* border-top-left-radius: 25px; */
+        border-top-left-radius: 105px;
+        border-bottom-right-radius: 105px;
+    }
+    .quote-banner>div{
+        overflow: hidden;
+    }
+    .report_section{
+        margin-top: 100px;
+    }
+    .bottom-section{
+        width: 70%;
+        margin-top: 100px;
+    }
+    .bottom-section>div{
+        padding-top: 50px;
+        margin-top: 100px;
+    }
+}
+@media (max-width:541px){
+    .AutoScroll>.items{
+        height:505vh;
+        overflow: scroll;
+
+    }
+    .bottom-section{
+        width: 70%;
+        margin-top: 100px;
+    }
+}
+@media (max-width:1026px) and (min-width:375px){
+    .feature-mainContainer{
+        width: 230%;
+    }
+    .AutoScroll>.items{
+        height:415vh
+    }
+    .scrollTags>.scroll-items{
+        height: 500px;
+        width: 90%;
+        overflow: scroll;
+    }
+    .items>.timetracking{
+        width: 100%;
+    }
+    .banner-flex>.banner-flexitems{
+        font-size: 15px;
+       /* border: 1px solid red; */
+       overflow: scroll;
+    }
+    .quote-banner{
+        margin-top: 100px;
+        overflow: scroll;
+    }
+    .quote-banner>img{
+        max-width: 100%;
+        height: 200px;
+        width: 200px;
+        padding-left: 40px;
+        /* border-top-left-radius: 25px; */
+        border-top-left-radius: 105px;
+        border-bottom-right-radius: 105px;
+    }
+    .quote-banner>div{
+        overflow: hidden;
+    }
+    .report_section{
+        margin-top: 100px;
+    }
 }

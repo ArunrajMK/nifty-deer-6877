@@ -205,7 +205,7 @@ const Features = () => {
                     </div>
                      </div>
                     </div> {/* Items end */}
-                     
+                    
                  </div>  {/* scroll Tag Ending */}
                  <div className='bottom-section'>
          <div className='bottom-text'>
