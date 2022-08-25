@@ -17,6 +17,7 @@ const Features = () => {
        })
     }
   return (
+    <>
     <div className='feature-mainContainer'>
         <div className='AutoScroll'>
             {/* Scroll Items */}
@@ -207,12 +208,14 @@ const Features = () => {
                     </div> {/* Items end */}
                     
                  </div>  {/* scroll Tag Ending */}
-                 <div className='bottom-section'>
+            </div>
+    </div>
+    <div className='bottom-section'>
          <div className='bottom-text'>
             <h1>Start tracking time today</h1>
             <h3>Join 70,000+ companies spending their time wisely with Harvest.</h3>
             
-            <div className='btn'>
+            <div className='btnn'>
         <button onClick={routeTo}>Try Harvest Free</button><p>Free 30-day trial. No credit card required.</p>
         </div>
          </div>
@@ -220,8 +223,7 @@ const Features = () => {
             <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/illoglyphs/footer-illo-comp.svg" alt="bottom-img" />
          </div>
      </div>
-            </div>
-    </div>
+    </>
   )
 }
 

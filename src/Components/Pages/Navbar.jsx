@@ -43,7 +43,7 @@ const Navbar = () => {
             <p>Sign in</p>
           </NavLink>
           <NavLink className="link" to="/tryharvestfree">
-            <button className="nav-li-btn">
+            <button className="nav_li_btn" >
               <h4>Try Harvest Free</h4>
             </button>
           </NavLink>
