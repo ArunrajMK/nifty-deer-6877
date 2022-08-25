@@ -17,7 +17,7 @@ const Whyharvest = () => {
         <div className='text'>
         <h1>Help your team spend time wisely</h1>
         <h3>Harvest time tracking makes it easy to capture time, gain&nbsp;<br/> insights from past projects, and get paid for your work.</h3>
-        <div className='btn'>
+        <div className='btnn'>
         <button onClick={routeTo}>Try Harvest Free</button><p>Free 30-day trial. No credit card required.</p>
         </div>
         </div>
@@ -30,9 +30,9 @@ const Whyharvest = () => {
             <h1>Empower your team with insight</h1>
             <h3>By tracking time and expenses in Harvest, you capture critical project data that allows you to learn from the past, keep current projects on track, and better estimate future projects.</h3>
             <ul className="feature-checklist">
-            <li>Review past data to improve how you scope and price work</li>
-            <li>Understand which projects are profitable — and why</li>
-            <li>Know when to take on new business (or grow your team)</li>
+            <li className="listItem">Review past data to improve how you scope and price work</li>
+            <li className="listItem">Understand which projects are profitable — and why</li>
+            <li className="listItem">Know when to take on new business (or grow your team)</li>
           </ul>
           <button onClick={browseFeature}>Browse Features</button>
          </div>
@@ -53,9 +53,9 @@ const Whyharvest = () => {
             <h1>Time tracking that works the way your team works</h1>
             <h3>Time tracking software is only useful if it’s actually used. That’s why we designed Harvest to be easy to adopt, integrated with your favorite apps, and flexible enough for all types of teams.</h3>
             <ul className="feature-checklist">
-            <li>Integrated with the tools your team already knows and loves</li>
-            <li>Track time wherever you work - desktop, browser, and mobile</li>
-            <li>Intuitive and easy to learn</li>
+            <li className="listItem">Integrated with the tools your team already knows and loves</li>
+            <li className="listItem">Track time wherever you work - desktop, browser, and mobile</li>
+            <li className="listItem">Intuitive and easy to learn</li>
           </ul>
           <button onClick={browseFeature}>Browse Features</button>
          </div>
@@ -67,9 +67,9 @@ const Whyharvest = () => {
             <h1>Keep your projects on track </h1>
             <h3>Harvest provides visibility into the key aspects of your projects—budget, team capacity, and costs—enabling you to keep everything on time and on budget.</h3>
             <ul className="feature-checklist">
-            <li>Review past data to improve how you scope and price work</li>
-            <li>Understand which projects are profitable — and why</li>
-            <li>Know when to take on new business (or grow your team)</li>
+            <li className="listItem">Review past data to improve how you scope and price work</li>
+            <li className="listItem">Understand which projects are profitable — and why</li>
+            <li className="listItem">Know when to take on new business (or grow your team)</li>
           </ul>
           <button onClick={browseFeature}>Browse Features</button>
          </div>
@@ -90,9 +90,9 @@ const Whyharvest = () => {
             <h1>Trusted by thousands of teams worldwide</h1>
             <h3>We’ve been serving teams of all sizes, across all types of industries for over 15 years. Today, with more than 70,000 customers, you can be sure that Harvest will work for your team’s unique needs.</h3>
             <ul className="feature-checklist">
-            <li>Flexible timekeeping and invoicing, whether you bill by time or by project</li>
-            <li>Scalable one-product-fits-all approach, that can grow with your team</li>
-            <li>Used by companies of all types, from creative agencies to management consulting</li>
+            <li className="listItem">Flexible timekeeping and invoicing, whether you bill by time or by project</li>
+            <li className="listItem">Scalable one-product-fits-all approach, that can grow with your team</li>
+            <li className="listItem">Used by companies of all types, from creative agencies to management consulting</li>
           </ul>
           <button onClick={browseFeature}>Browse Features</button>
          </div>
@@ -114,7 +114,7 @@ const Whyharvest = () => {
             <h1>Start tracking time today</h1>
             <h3>Join 70,000+ companies spending their time wisely with Harvest.</h3>
             
-            <div className='btn'>
+            <div className='btnn'>
         <button onClick={routeTo}>Try Harvest Free</button><p>Free 30-day trial. No credit card required.</p>
         </div>
          </div>

@@ -54,11 +54,11 @@
     font-size: 29px;
     letter-spacing: 2px;
 }
-.text>.btn{
+.text>.btnn{
   display: flex;
   gap: 30px;
 }
-.btn>button{
+.btnn>button{
     width: 190px;
     height: 50px;
     border-radius: 10px;
@@ -111,10 +111,10 @@ color: grey;
     font-weight: 400;
     text-decoration: nbutton
 }
-.feacture-checklist li{
+.feacture-checklist .listItem{
     font-size: 18px;
 }
-.feature-checklist li{
+.feature-checklist .listItem{
     font-size: 17px;
     padding-left: 35px;
     background-image: url(//19495563.fs1.hubspotusercontent-na1.net/hubfs/19495563/raw_assets/public/harvest-theme/images/icons/icon-checklist.svg);
@@ -122,10 +122,10 @@ color: grey;
     background-position: left top;
     margin-bottom: 5px;
 }
-li{
+.listItem{
     display: list-item;
 }
-ul {
+.feature-checklist {
     display: block;
     list-style-type: none;
     margin-block-start: 1em;
@@ -289,11 +289,11 @@ font-size: 15px;
     margin-top: 50px;
 
 }
-.bottom-text>.btn{
+.bottom-text>.btnn{
    display: flex;
    gap: 20px;
 }
-.btn>button{ width:180px;
+.btnn>button{ width:180px;
     height: 48px;
     border-radius: 10px;
     background-color: rgba(250,93,0,100%);
