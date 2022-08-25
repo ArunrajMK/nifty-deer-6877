@@ -1,14 +1,16 @@
 .feature-mainContainer{
     /* border: 1px  solid red; */
-    height: auto;
+    border-bottom: 1px solid rgba(250,93,0,100%);
+    height: 470vh;
     width: 100%;
     margin-top: 10px;
     aspect-ratio: 1;
+    overflow: scroll;
 }
 .feature-mainContainer>.AutoScroll{
     /* border: 1px solid red; */
     background-color: #FFF7F2;
-    height: auto;
+    height: 100%;
 }
 /* Scroll Tags */
 .AutoScroll>.scrollTags{
