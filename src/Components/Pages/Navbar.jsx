@@ -1,8 +1,10 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 // import harvestLogo from "../../utils/harvest-removebg-preview.png";
 
 const Navbar = () => {
+
+  const navigate = useNavigate();
   return (
     <>
       <div className="nav-container">
@@ -39,9 +41,15 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="nav-right">
-          <NavLink className="link" to="/signin">
-            <p>Sign in</p>
-          </NavLink>
+        {
+          JSON.parse(localStorage.getItem("userName"))
+          ? <h4>{JSON.parse(localStorage.getItem("userName"))}</h4>
+          // : <NavLink className="link" to="/signin">
+            :<p onClick={()=>{
+              navigate("/signin")
+            }}>Sign in</p>
+          // </NavLink>
+        }
           <NavLink className="link" to="/tryharvestfree">
             <button className="nav-li-btn">
               <h4>Try Harvest Free</h4>
