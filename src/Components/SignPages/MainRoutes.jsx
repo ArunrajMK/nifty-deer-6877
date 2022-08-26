@@ -12,6 +12,7 @@ function MainRoutes() {
     <>
   
     <Routes>
+
     <Route path="/" element={ <SecondNavbar/>}/>
       <Route path="/time" element={ <Time/>}/>
       <Route path="/expenses" element={ <Expenses/>}/>
