@@ -17,6 +17,7 @@ function MainRoutes() {
       <Route path="/expenses" element={ <Expenses/>}/>
       <Route path="/invoices" element={ <Invoices/>}/>
     </Routes>
+
     </>
   )
 }
