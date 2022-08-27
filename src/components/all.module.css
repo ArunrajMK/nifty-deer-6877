@@ -1,0 +1,47 @@
+.container{
+    width:400px;
+    height:200px;
+    border:1px solid;
+    border-radius:5px;
+    margin:auto;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+.box{
+    border:1px solid; 
+    height:20%;
+    display:flex;
+}
+
+.left_box{
+    border:1px solid; 
+    width:50%;
+    height:100%;
+}
+.right_box{
+    border:1px solid; 
+    width:50%;
+    height:100%;
+}
+
+.bottombox{
+    border:1px solid ; 
+    height:20%;
+    display: flex;
+}
+.middle{
+    border:.1px solid red; 
+    height:60%;
+}
+
+.button{
+    border:1px solid ; 
+    height:60%;
+    margin-right:5px;
+    margin-top:5px;
+}
+.time{
+    display:flex;
+    gap:5px;
+}
