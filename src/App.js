@@ -4,6 +4,7 @@ import Footer from './Components/Footer/Footer';
 
 import MainRoutes from './Components/Pages/MainRoutes';
 import Navbar from './Components/Pages/Navbar';
+import Signin from './Pages/Signin';
 
 function App() {
   return (
