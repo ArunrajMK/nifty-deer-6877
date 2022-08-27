@@ -5,19 +5,19 @@
     /* background-color: #FFF7F2; */
 
 }
-.harvest-mainContainer{
+.harvest_mainContainer{
     /* border: 1px solid red; */
     width: 100%;
     height: fit-content;
-    margin-top: 10px;
+    margin-top: 100px;
     padding-bottom: 100px;
 }
-.harvest-mainContainer>.harvest-banner{
+.harvest_mainContainer>.harvest_banner{
    /* border: 1px solid red;
     */
     width: 100%;
 }
-.harvest-mainContainer>.harvest-banner>.banner-hero-img{
+.harvest_mainContainer>.harvest_banner>.banner_hero_img{
     
     border-bottom:1px solid rgba(250,93,0,100%);
     height: auto;
@@ -30,7 +30,7 @@
     background-position: calc(50% + 340px) bottom;
     padding-bottom: 100px;
 }
-.banner-hero-img>.text{
+.banner_hero_img>.text{
     width: fit-content;
     height: 100%;
     text-align: left;
@@ -68,7 +68,7 @@
     font-weight: 700;
     cursor: pointer;
 }
-.harvest-mainContainer>.middle-section{
+.harvest_mainContainer>.middle_section{
 
     border-bottom: 1px solid rgba(250,93,0,100%);
     height: auto;
@@ -76,7 +76,7 @@
     background-color: #fff8f1;
 }
 /* Empower Text */
-.middle-section>.empower-section{
+.middle_section>.empower_section{
     border-bottom: 1px solid rgba(250,93,0,100%);
     height: auto;
     width: 60%;
@@ -86,18 +86,18 @@
     gap: 40px;
     padding-bottom: 50px;
 }
-.empower-section>div{
+.empower_section>div{
     padding-top: 50px;
 }
-.empower-section>.empower-image h3,h4{
+.empower_section>.empower_image h3,h4{
 font-style: italic;
 color: grey;
 }
-.empower-section>.empower-text{
+.empower_section>.empower_text{
   text-align: left;
   padding: 10px 10px 10px 10px;
 }
-.empower-text h1{
+.empower_text h1{
     font-weight: 400;
     text-decoration: none;
     font-family: MuotoWeb,sans-serif;
@@ -106,15 +106,15 @@ color: grey;
     font-size: 55px;
     padding-left: 10px;
 }
-.empower-text h3{
+.empower_text h3{
     line-height: 30px;
     font-weight: 400;
     text-decoration: nbutton
 }
-.feacture-checklist li{
+.feacture_checklist li{
     font-size: 18px;
 }
-.feature-checklist li{
+.feature_checklist li{
     font-size: 17px;
     padding-left: 35px;
     background-image: url(//19495563.fs1.hubspotusercontent-na1.net/hubfs/19495563/raw_assets/public/harvest-theme/images/icons/icon-checklist.svg);
@@ -134,7 +134,7 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 10px;
 }
-.empower-text>button{
+.empower_text>button{
     width:160px;
     height: 45px;
     border-radius: 10px;
@@ -148,7 +148,7 @@ ul {
 }
 /* Timetrack section */
 
-.middle-section>.Timetrack-section{
+.middle_section>.Timetrack_section{
     border-bottom: 1px solid rgba(250,93,0,100%);
     height: auto;
     width: 60%;
@@ -159,7 +159,7 @@ ul {
     padding-bottom: 50px;
     margin-top: 50px;
 }
-.Timetrack-text>button{
+.Timetrack_text>button{
     width:160px;
     height: 45px;
     border-radius: 10px;
@@ -172,19 +172,19 @@ ul {
     margin-left: 20px;
 
 }
-.Timetrack-section>div{
+.Timetrack_section>div{
     padding-top: 50px;
 }
-.Timetrack-section>.Timetrack-img>h3,h4{
+.Timetrack_section>.Timetrack_img>h3,h4{
 font-style: italic;
 color: grey;
 font-size: 15px;
 }
-.Timetrack-section>.Timetrack-text{
+.Timetrack_section>.Timetrack_text{
   text-align: left;
   padding: 10px 10px 10px 10px;
 }
-.Timetrack-text h1{
+.Timetrack_text h1{
     font-weight: 400;
     text-decoration: none;
     font-family: MuotoWeb,sans-serif;
@@ -193,7 +193,7 @@ font-size: 15px;
     font-size: 55px;
     padding-left: 10px;
 }
-.Timetrack-text h3{
+.Timetrack_text h3{
     line-height: 30px;
     font-weight: 400;
     text-decoration: none;
@@ -206,7 +206,7 @@ font-size: 15px;
 
 /* Keep Project on Track Section */
 
-.middle-section>.KeepTrack-section{
+.middle_section>.KeepTrack_section{
     border-bottom: 1px solid rgba(250,93,0,100%);
     height: auto;
     width: 60%;
@@ -217,7 +217,7 @@ font-size: 15px;
     padding-bottom: 50px;
     margin-top: 50px;
 }
-.KeepTrack-text>button{
+.KeepTrack_text>button{
     width:160px;
     height: 45px;
     border-radius: 10px;
@@ -230,19 +230,19 @@ font-size: 15px;
     margin-left: 20px;
 
 }
-.KeepTrack-section>div{
+.KeepTrack_section>div{
     padding-top: 50px;
 }
-.KeepTrack-section>.KeepTrack-image>h3,h4{
+.KeepTrack_section>.KeepTrack_image>h3,h4{
 font-style: italic;
 color: grey;
 font-size: 15px;
 }
-.KeepTrack-section>.KeepTrack-text{
+.KeepTrack_section>.KeepTrack_text{
   text-align: left;
   padding: 10px 10px 10px 10px;
 }
-.KeepTrack-text h1{
+.KeepTrack_text h1{
     font-weight: 400;
     text-decoration: none;
     font-family: MuotoWeb,sans-serif;
@@ -251,7 +251,7 @@ font-size: 15px;
     font-size: 55px;
     padding-left: 10px;
 }
-.KeepTrack-text h3{
+.KeepTrack_text h3{
     line-height: 30px;
     font-weight: 400;
     text-decoration: none;
@@ -263,7 +263,7 @@ font-size: 15px;
 }
 
 /* Partner Banner */
-.middle-section>.Partner-banner{
+.middle_section>.Partner_banner{
     height: 150px;
     width: 60%;
     margin: auto;
@@ -274,11 +274,11 @@ font-size: 15px;
     justify-content: space-around;
     opacity: .2;
 }
-.Partner-banner>img{
+.Partner_banner>img{
     width:60px
 }
 /* Bottom Section */
-.bottom-section{
+.bottom_section{
     height: auto;
     width: 48%;
     margin: auto;
@@ -289,7 +289,7 @@ font-size: 15px;
     margin-top: 50px;
 
 }
-.bottom-text>.btn{
+.bottom_text>.btn{
    display: flex;
    gap: 20px;
 }
@@ -303,19 +303,19 @@ font-size: 15px;
     margin-top: 20px;
     cursor: pointer;
     margin-left: 20px;}
-.bottom-section>div{
+.bottom_section>div{
     padding-top: 50px;
 }
-.bottom-section>.bottom-image>h3,h4{
+.bottom_section>.bottom_image>h3,h4{
 font-style: italic;
 color: grey;
 font-size: 15px;
 }
-.bottom-section>.bottom-text{
+.bottom_section>.bottom_text{
   text-align: left;
   padding: 10px 10px 10px 10px;
 }
-.bottom-text h1{
+.bottom_text h1{
     font-weight: 400;
     text-decoration: none;
     font-family: MuotoWeb,sans-serif;
@@ -324,7 +324,7 @@ font-size: 15px;
     font-size: 55px;
     padding-left: 10px;
 }
-.bottom-text h3{
+.bottom_text h3{
     line-height: 30px;
     font-weight: 400;
     text-decoration: none;
@@ -336,14 +336,14 @@ font-size: 15px;
 }
 /* media queries */
 @media (max-width:1146px){
-    .harvest-mainContainer{
+    .harvest_mainContainer{
         /* border: 1px solid red; */
         width: 110%;
         height: fit-content;
         margin-top: 100px;
         padding-bottom: 100px;
     }
-    .middle-section>.empower-section{
+    .middle_section>.empower_section{
         border-bottom: 1px solid rgba(250,93,0,100%);
         height: auto;
         width: 60%;
@@ -353,7 +353,7 @@ font-size: 15px;
         gap: 40px;
         padding-bottom: 50px;
     }
-    .middle-section>.Timetrack-section{
+    .middle_section>.Timetrack_section{
         border-bottom: 1px solid rgba(250,93,0,100%);
         height: auto;
         width: 60%;
@@ -363,7 +363,7 @@ font-size: 15px;
         gap: 40px;
         padding-bottom: 50px;
     }
-    .middle-section>.KeepTrack-section{
+    .middle_section>.KeepTrack_section{
         border-bottom: 1px solid rgba(250,93,0,100%);
         height: auto;
         width: 60%;
@@ -373,7 +373,7 @@ font-size: 15px;
         gap: 40px;
         padding-bottom: 50px;
     }
-    .bottom-section{
+    .bottom_section{
         height: auto;
         width: 48%;
         margin: auto;
@@ -385,14 +385,14 @@ font-size: 15px;
     }
 }
 @media (minmax-width:632px){
-    .harvest-mainContainer{
+    .harvest_mainContainer{
         /* border: 1px solid red; */
         width: 115%;
         height: fit-content;
         margin-top: 100px;
         padding-bottom: 100px;
     }
-    .middle-section>.empower-section{
+    .middle_section>.empower_section{
         border-bottom: 1px solid rgba(250,93,0,100%);
         height: auto;
         width: 60%;
@@ -402,7 +402,7 @@ font-size: 15px;
         gap: 40px;
         padding-bottom: 50px;
     }
-    .middle-section>.Timetrack-section{
+    .middle_section>.Timetrack_section{
         border-bottom: 1px solid rgba(250,93,0,100%);
         height: auto;
         width: 60%;
@@ -412,7 +412,7 @@ font-size: 15px;
         gap: 40px;
         padding-bottom: 50px;
     }
-    .middle-section>.KeepTrack-section{
+    .middle_section>.KeepTrack_section{
         border-bottom: 1px solid rgba(250,93,0,100%);
         height: auto;
         width: 60%;
@@ -423,7 +423,7 @@ font-size: 15px;
         padding-bottom: 50px;
         margin-top: 50px;
     }
-    .bottom-section{
+    .bottom_section{
         height: auto;
         width: 48%;
         margin: auto;

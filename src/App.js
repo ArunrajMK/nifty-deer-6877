@@ -1,5 +1,7 @@
 
 import './App.css';
+import Footer from './Components/Footer/Footer';
+
 import MainRoutes from './Components/Pages/MainRoutes';
 import Navbar from './Components/Pages/Navbar';
 import Signin from './Pages/Signin';
@@ -7,9 +9,11 @@ import Signin from './Pages/Signin';
 function App() {
   return (
     <div className="App">
-      {/* hi */}
+      
       <Navbar />
       <MainRoutes />
+      <Footer />
+      
     </div>
   );
 }
