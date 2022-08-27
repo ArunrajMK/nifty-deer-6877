@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="nav-right">
         {
           JSON.parse(localStorage.getItem("userName"))
-          ? <h4>{JSON.parse(localStorage.getItem("userName"))}</h4>
+          ? <h4>{JSON.parse(localStorage.getItem("userName"))}</h4> 
           // : <NavLink className="link" to="/signin">
             :<p onClick={()=>{
               navigate("/signin")

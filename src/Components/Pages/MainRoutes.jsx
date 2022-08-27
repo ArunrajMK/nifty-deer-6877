@@ -4,6 +4,12 @@ import Features from "../../Pages/Features";
 import Whyharvest from "../../Pages/Whyharvest";
 import Signin from "../../Pages/Signin";
 import Homepage from "../HomePage/Homepage";
+import SecondNavbar from "../SignPages/SecondNavbar";
+import Time from "../SignPages/Time";
+import Expenses from "../SignPages/Expenses";
+import Invoices from "../SignPages/Invoices";
+import Projects from "../../Pages/Projects";
+import Team from "../../Pages/Team";
 
 
 const MainRoutes = () => {
@@ -18,10 +24,12 @@ const MainRoutes = () => {
         <Route path="/pricing" element={<h1>pricing</h1>} />
         <Route path="/signin" element={<Signin/>} />
         <Route path="/tryharvestfree" element={<h1>tryharvestfree</h1>} />
-        {/* <Route path="/" element={<SecondNavbar />} />
+        <Route path="/second" element={<SecondNavbar />} />
         <Route path="/time" element={<Time />} />
         <Route path="/expenses" element={<Expenses />} />
-        <Route path="/invoices" element={<Invoices />} /> */}
+        <Route path="/invoices" element={<Invoices />} />
+        <Route path='/projects' element={<Projects />}/>
+        <Route path='/teams' element={<Team/>}/>
       </Routes>
     </>
   );

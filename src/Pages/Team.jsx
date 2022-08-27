@@ -89,7 +89,7 @@ const Team = () => {
         </div>
              {/* Table Container */}
          <TableContainer mt="10px">
-         <Table variant='simple' >
+         <Table variant='simple' style={{width:"100%",marginTop:"50px"}} >
     <Thead style={{backgroundColor:"#EFEFEF"}}>
       <Tr>
         <Th><input type='checkbox' /> <strong>Employees</strong></Th>

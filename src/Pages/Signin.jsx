@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import styled from 'styled-components';
+// import styled from 'styled-components';
 const Signin = () => {
 
   const [data, setData] = useState("");
@@ -17,7 +17,7 @@ const Signin = () => {
 
 
   return (
-    <div style={{margin:"auto", width:"30%", marginTop:"40px"}}>
+    <div style={{margin:"auto", width:"30%", marginTop:"40px",marginBottom:"100px"}}>
       <div style={{display:"flex",width:"30%", margin:"auto"}}>
       <img src="https://www.getharvest.com/hubfs/favicon-h-1.ico" alt="logo" />
       <h2 style={{ color: "#FA5D00" }}>harvest</h2>

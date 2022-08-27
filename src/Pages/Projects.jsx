@@ -76,8 +76,8 @@ const Projects = () => {
             </div>
             </div>
            {/* Table Container */}
-           <TableContainer mt="50px">
-         <Table variant='simple'>
+           <TableContainer  >
+         <Table variant='simple' style={{width:"100%",marginTop:"50px"}}>
     <Thead style={{backgroundColor:"#EFEFEF"}}>
       <Tr>
         <Th><input type='checkbox' /> <strong>Client</strong></Th>
