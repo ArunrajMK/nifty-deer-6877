@@ -7,7 +7,7 @@ const Features = () => {
   const reportRef = useRef(null)
   const invoiceRef = useRef(null)
     const routeTo=()=>{
-       nav('/')
+       nav('/signin')
     }
     const handleScroll=(ref)=>{
       window.scrollTo({
