@@ -4,11 +4,11 @@ import {useNavigate} from 'react-router-dom'
 const Whyharvest = () => {
     const nav = useNavigate();
    const routeTo = () =>{
-    nav('/')
+    nav('/signin')
 
    }
    const browseFeature=()=>{
-    nav('/')
+    nav('/features')
    }
   return (
     <div className={harvest.harvest_mainContainer}>
