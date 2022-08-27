@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/components/Time.jsx
 import React, { useState } from 'react'
 
 import {
@@ -149,6 +150,16 @@ const reset = ()=>{
         </Flex>
         <Box marginLeft={"500px"} marginTop={"10px"}><Flex><Text >You have 29 days left in your free trial.</Text> <Button h="25px">Upgrade</Button></Flex></Box>
         </Box>
+=======
+import { Box } from '@chakra-ui/react'
+import React from 'react'
+
+function Time() {
+  return (
+   <Box>
+
+   </Box>
+>>>>>>> 3cac977cd1d3421eb5e859ef8ccd841c332f03b0:src/Components/SignPages/Time.jsx
   )
 }
 
