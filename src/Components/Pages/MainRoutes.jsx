@@ -16,6 +16,10 @@ const MainRoutes = () => {
         <Route path="/pricing" element={<h1>pricing</h1>} />
         <Route path="/signin" element={<h1>signin</h1>} />
         <Route path="/tryharvestfree" element={<h1>tryharvestfree</h1>} />
+        {/* <Route path="/" element={<SecondNavbar />} />
+        <Route path="/time" element={<Time />} />
+        <Route path="/expenses" element={<Expenses />} />
+        <Route path="/invoices" element={<Invoices />} /> */}
       </Routes>
     </>
   );
