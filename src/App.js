@@ -1,4 +1,5 @@
 
+import { useNavigate } from 'react-router-dom';
 import './App.css';
 import Footer from './Components/Footer/Footer';
 
@@ -8,15 +9,16 @@ import SecondNavbar from './Components/SignPages/SecondNavbar';
 import Signin from './Pages/Signin';
 
 function App() {
+  const navigate = useNavigate();
   return (
     <div className="App">
       
        {
           JSON.parse(localStorage.getItem("userName"))
           ? <SecondNavbar/>
-          // : <NavLink className="link" to="/signin">
-            :  <Navbar />
-          // </NavLink>
+            :
+              <Navbar />
+
         }
       <MainRoutes />
       <Footer />

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Signin = () => {
 
   const [data, setData] = useState("");
-
+  const [change, setChange] = useState() 
   const navigate = useNavigate();
 
   console.log(data)
@@ -12,7 +12,7 @@ const Signin = () => {
   const handleClick=(e)=>{
     localStorage.setItem("userName", JSON.stringify(data));
     // window.location.reload();
-    navigate("/")
+    navigate("/time")
   }
 
 
@@ -40,7 +40,7 @@ const Signin = () => {
       style={{
         width:"12px",
         marginRight:"12px"
-      }}
+      }} alt="pic"
       />Sign in with Google</button>
       <input 
        style={{

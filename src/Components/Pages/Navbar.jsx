@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import SecondNavbar from "../SignPages/SecondNavbar";
 // import harvestLogo from "../../utils/harvest-removebg-preview.png";
 
 const Navbar = () => {
 
   const navigate = useNavigate();
+ const [change,setChange] = useState(false)
+const handleClick = ()=>{
+  navigate("/signin")
+ setChange(!change)
+}
+
+
   return (
     <>
-      <div className="nav-container">
+      {change? <SecondNavbar/> : <div className="nav-container">
         <div className="nav-left">
           <Link to="/">
             <img
@@ -29,13 +37,13 @@ const Navbar = () => {
             <NavLink className="link" to="/features">
               <li>Features</li>
             </NavLink>
-            <NavLink className="link" to="/customers">
+            <NavLink className="link" to="/">
               <li>Customers</li>
             </NavLink>
-            <NavLink className="link" to="/integration">
+            <NavLink className="link" to="/">
               <li>Integration</li>
             </NavLink>
-            <NavLink className="link" to="/pricing">
+            <NavLink className="link" to="/">
               <li to="/pricing">Pricing</li>
             </NavLink>
           </ul>
@@ -45,18 +53,16 @@ const Navbar = () => {
           JSON.parse(localStorage.getItem("userName"))
           ? <h4>{JSON.parse(localStorage.getItem("userName"))}</h4> 
           // : <NavLink className="link" to="/signin">
-            :<p onClick={()=>{
-              navigate("/signin")
-            }}>Sign in</p>
+            :<p onClick={handleClick}>Sign in</p>
           // </NavLink>
         }
-          <NavLink className="link" to="/tryharvestfree">
+          <NavLink className="link" to="/signin">
             <button className="nav_li_btn" >
               <h4>Try Harvest Free</h4>
             </button>
           </NavLink>
         </div>
-      </div>
+      </div>}
     </>
   );
 };
