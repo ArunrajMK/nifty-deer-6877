@@ -1,0 +1,16 @@
+.box3PartnerBanner {
+  height: 150px;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  opacity: 0.4;
+  background-color: antiquewhite;
+  border-bottom: 2px solid #fa5d00;
+}
+.box3PartnerBanner > img {
+  width: 60px;
+}
